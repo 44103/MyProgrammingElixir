@@ -1,4 +1,4 @@
-fizz_buzz = fn
+matching = fn
   (0, 0, _) -> "FizzBuzz"
   (0, _, _) -> "Fizz"
   (_, 0, _) -> "Buzz"
@@ -7,4 +7,4 @@ end
 
 # with はバッドメソッド
 
-IO.puts fizz_buzz.(0, 0, 3)
+IO.puts matching.(0, 0, 3)
